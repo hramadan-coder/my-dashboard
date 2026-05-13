@@ -11,7 +11,7 @@ URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv'
 def main():
     # 1. عنوان الصفحة الرئيسي (الذي يظهر في الأعلى)
     st.markdown("<h2 style='text-align: center; color: #4A90E2;'>📊 متابعة إنجاز الوحدات السكنية</h2>", unsafe_allow_html=True)
-    st.write(AREA Dashboard)
+    st.write("AREA Dashboard")
 
     try:
         # قراءة البيانات
